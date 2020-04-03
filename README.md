@@ -8,7 +8,7 @@ MiniProjet pour s'exercer . il se constitue de deux partie , partie du client et
 - Javascript
 - Python Flask
 - Bootstrap
-- Jquey
+- Jquery
 
 # Features
 
