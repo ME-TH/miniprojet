@@ -10,12 +10,12 @@ var app = express();
 //import routes
 
 const mathroute = require("./routes/math");
-const phyroute = require("./routes/physique");
+const phyroute = require("./routes/phy");
 const algoroute = require("./routes/algo");
 
 app.use("/math", mathroute.math);
 app.use("/algo", algoroute.algo);
-app.use("/physique", phyroute.phy);
+app.use("/phy", phyroute.phy);
 
 // setting port
 
