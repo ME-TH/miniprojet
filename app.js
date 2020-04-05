@@ -28,4 +28,7 @@ app.get("/", (req, res) => {
   res.sendFile("index.html");
 });
 
-app.listen(PORT, () => console.log(`Server Running on PORT : ${PORT}`));
+app.listen(PORT, () => {
+  console.log(`Server Running on PORT : ${PORT}`);
+  console.log("Your Site is Hosted On URL = http://localhost:3000/");
+});
