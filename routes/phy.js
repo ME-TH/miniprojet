@@ -5,7 +5,7 @@ const phyrouter = express.Router();
 
 phyrouter.use(express.static(path.join(__dirname, "../client/phy")));
 
-phyrouter.get("/", (req, res) => {
+phyrouter.get("/", (_req, res) => {
   res.sendFile("phy.html", {
     root: path.join(__dirname, "../client/phy/"),
   });

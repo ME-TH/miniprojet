@@ -24,7 +24,7 @@ app.use("/phy", phyroute.phy);
 //define root folder
 app.use(express.static(path.join(__dirname, "client/home")));
 
-app.get("/", (req, res) => {
+app.get("/", (_req, res) => {
   res.sendFile("index.html");
 });
 

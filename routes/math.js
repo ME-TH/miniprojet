@@ -5,7 +5,7 @@ const mathrouter = express.Router();
 
 mathrouter.use(express.static(path.join(__dirname, "../client/math")));
 
-mathrouter.get("/", (req, res) => {
+mathrouter.get("/", (_req, res) => {
   res.sendFile("math.html", {
     root: path.join(__dirname, "../client/math/"),
   });
