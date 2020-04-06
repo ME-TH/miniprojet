@@ -7,6 +7,10 @@ const express = require("express");
 
 var app = express();
 
+// setting port
+
+const PORT = process.env.Port || 3000;
+
 //import routes
 
 const mathroute = require("./routes/math");
@@ -16,10 +20,6 @@ const algoroute = require("./routes/algo");
 app.use("/math", mathroute.math);
 app.use("/algo", algoroute.algo);
 app.use("/phy", phyroute.phy);
-
-// setting port
-
-const PORT = process.env.Port || 3000;
 
 //define root folder
 app.use(express.static(path.join(__dirname, "client/home")));
