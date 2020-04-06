@@ -12,5 +12,4 @@ MiniProjet pour s'exercer . il se constitue de deux partie , partie du client et
 
 # Features
 
--- No-SQL Database
-
+- take a look at this link "https://www.youtube.com/watch?v=JnEH9tYLxLk&t=2012s"
