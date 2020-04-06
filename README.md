@@ -13,6 +13,4 @@ MiniProjet pour s'exercer . il se constitue de deux partie , partie du client et
 # Features
 
 - No-SQL Database
-HELLO 
-ASDASD
-ASDASD
+
