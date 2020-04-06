@@ -30,5 +30,7 @@ app.get("/", (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Server Running on PORT : ${PORT}`);
-  console.log(`Your Site is Hosted On URL = http://localhost:${PORT}/`);
+  if (PORT == 3000) {
+    console.log(`Your Site is Hosted On URL = http://localhost:${PORT}/`);
+  }
 });
