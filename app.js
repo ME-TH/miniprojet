@@ -9,7 +9,7 @@ var app = express();
 
 // setting port
 
-const PORT = process.env.Port || 3000;
+const PORT = process.env.PORT || 3000;
 
 //import routes
 
@@ -30,5 +30,5 @@ app.get("/", (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Server Running on PORT : ${PORT}`);
-  console.log("Your Site is Hosted On URL = http://localhost:3000/");
+  console.log(`Your Site is Hosted On URL = http://localhost:${PORT}/`);
 });
