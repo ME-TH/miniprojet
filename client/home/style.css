@@ -59,6 +59,17 @@ footer > h1 {
   max-width: 40rem;
 }
 
+/*feedback area*/
+
+#FeedbackAr{
+  bottom: 0px;
+  width: 300px;
+  padding: 7px 0px 13px 0px;
+  margin: auto;
+}
+
+/*footer*/
+
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
