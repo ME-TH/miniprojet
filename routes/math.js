@@ -1,14 +1,9 @@
 const express = require("express");
-const path = require("path");
 
 const mathrouter = express.Router();
 
-mathrouter.use(express.static(path.join(__dirname, "../client/math")));
-
 mathrouter.get("/", (_req, res) => {
-  res.sendFile("math.html", {
-    root: path.join(__dirname, "../client/math/"),
-  });
+  res.render("math", { title: "Math" });
 });
 
-module.exports.math = mathrouter;
+module.exports.route = mathrouter;

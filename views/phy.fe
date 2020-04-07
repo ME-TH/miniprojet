@@ -1,0 +1,3 @@
+{{> navbar2}}
+<h1>Phy</h1>
+{{> footer}}

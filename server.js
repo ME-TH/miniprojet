@@ -1,7 +1,20 @@
 //import dependecies
 
-const path = require("path");
 const express = require("express");
+const template = require("express-handlebars");
+const fe = template.create({
+  defaultLayout: "home",
+  partialsDir: "./views/parts",
+  extname: ".fe", //change .handlebars to .fe <==> front-end
+  helpers: {},
+});
+
+//import routes
+
+const home = require("./routes/home");
+const algo = require("./routes/algo");
+const math = require("./routes/math");
+const phy = require("./routes/phy");
 
 //creating the app
 
@@ -11,24 +24,25 @@ var app = express();
 
 const PORT = process.env.PORT || 3000;
 
-//import routes
+//set handlebars engine
 
-const mathroute = require("./routes/math");
-const phyroute = require("./routes/phy");
-const algoroute = require("./routes/algo");
+app.engine(".fe", fe.engine);
+app.set("view engine", ".fe");
+app.set("views", __dirname + "/views");
 
-app.use("/math", mathroute.math);
-app.use("/algo", algoroute.algo);
-app.use("/phy", phyroute.phy);
+app.use(express.static("client"));
+app.use("/", home.route);
+app.use("/math", math.route);
+app.use("/algo", algo.route);
+app.use("/phy", phy.route);
 
-//define root folder
-app.use(express.static(path.join(__dirname, "client/home")));
+//listening in the port
 
-app.get("/", (_req, res) => {
-  res.sendFile("index.html");
-});
-
-app.listen(PORT, () => {
+app.listen(PORT, (err) => {
+  if (err) {
+    console.log(err);
+    return;
+  }
   console.log(`Server Running on PORT : ${PORT}`);
   if (PORT == 3000) {
     console.log(`Your Site is Hosted On URL = http://localhost:${PORT}/`);
