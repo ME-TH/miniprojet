@@ -6,7 +6,6 @@ const fe = template.create({
   defaultLayout: "main",
   partialsDir: "./views/parts",
   extname: ".fe", //change .handlebars to .fe <==> front-end
-  helpers: {},
 });
 
 //import routes

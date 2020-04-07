@@ -1,0 +1,8 @@
+{
+  "base": { "name": "Base De Données", "description": "merise" },
+  "structure": { "name": "Structure De Données", "description": "chaine" },
+  "anal4": { "name": "Analyse 4", "description": "serie" },
+  "num": { "name": "Analyse Numérique", "description": "lagrange" },
+  "electro": { "name": "Electromagnétisme", "description": "flux" },
+  "quant": { "name": "Mécanique Quantique", "description": "dirac" }
+}

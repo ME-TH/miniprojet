@@ -1,4 +1,5 @@
 const express = require("express");
+const data = require("../client/data.json");
 
 const homerouter = express.Router();
 homerouter.use(express.static("client"));

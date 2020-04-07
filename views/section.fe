@@ -8,12 +8,11 @@
             <img class="image" src="../images/v1/algo.jpg" alt="" />
           </a>
           <h4 class="th4">
-            Programmation
+            {{ mod1 }}
           </h4>
           <div class="card-body">
             <p class="card-text">
-              Dans Cette Section Vouz Aurez L'accés A Deux Module Du
-              Programmation , Base De Données et Structure Des Données.
+              {{ desc1 }}
             </p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
@@ -50,12 +49,11 @@
             <img class="image" src="../images/v1/phy.jpg" alt="" />
           </a>
           <h4 class="th4">
-            Physique
+            {{ mod2 }}
           </h4>
           <div class="card-body">
             <p class="card-text">
-              Dans Cette Section Vouz Aurez L'accés A Deux Module Du Physique ,
-              Mécanique Quantique et Electromagnétisme.
+              {{ desc2 }}
             </p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">

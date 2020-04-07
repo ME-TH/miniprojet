@@ -5,7 +5,7 @@
         href="http://www.fstg-marrakech.ac.ma/"
         class="navbar-brand d-flex align-items-center"
       >
-        <strong>{{ test }}</strong>
+        <strong>FSTG</strong>
         <svg
           class="bi bi-house-door-fill"
           width="1em"
@@ -43,7 +43,7 @@
         <div class="col-sm-8 col-md-7 py-4">
           <h4 class="text-white">About</h4>
           <p class="text-white">
-            Cette Page Web Devant Vous Est Un Miniprojet , Qui Permet Au
+            Cette Web Application Devant Vous Est Un Miniprojet , Qui Permet Au
             Etudiants Du Fstg Filier Mip/Mipc S4 D'acceder A Divers Cours Sans
             Complexité
             <i class="fa fa-map-pin" aria-hidden="true"></i>
