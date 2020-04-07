@@ -5,9 +5,9 @@
     <title>{{ title }}</title>
     <link rel="stylesheet" type="text/css" href="css/{{ style }}" />
   </head>
-
   <body>
     {{{body}}}
+    {{> footer}}
   </body>
   <script src="js/{{ script }}"></script>
 </html>

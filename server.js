@@ -3,7 +3,7 @@
 const express = require("express");
 const template = require("express-handlebars");
 const fe = template.create({
-  defaultLayout: "home",
+  defaultLayout: "main",
   partialsDir: "./views/parts",
   extname: ".fe", //change .handlebars to .fe <==> front-end
   helpers: {},
@@ -31,6 +31,7 @@ app.set("view engine", ".fe");
 app.set("views", __dirname + "/views");
 
 app.use(express.static("client"));
+
 app.use("/", home.route);
 app.use("/math", math.route);
 app.use("/algo", algo.route);

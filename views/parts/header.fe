@@ -1,5 +1,8 @@
 <meta charset="UTF-8" />
-<meta name="description" content="This is a miniproject to practice ." />
+<meta
+  name="description"
+  content="This is a webapp for the Mip/Mipc S4 Students ."
+/>
 <meta name="author" content="ME-TH" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
