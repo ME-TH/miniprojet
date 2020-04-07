@@ -1,3 +1,0 @@
-{{> navbar2}}
-<h1>Math</h1>
-{{> footer}}
