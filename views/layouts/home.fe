@@ -3,11 +3,11 @@
   <head>
     {{>header}}
     <title>{{ title }}</title>
-    <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <link rel="stylesheet" type="text/css" href="css/{{ style }}" />
   </head>
 
   <body>
     {{{body}}}
   </body>
-  <script src="js/home.js"></script>
+  <script src="js/{{ script }}"></script>
 </html>
