@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <div class="card mb-4 shadow-sm">
+        <div class="card mb-5 shadow-sm">
           <a href="algorithmique/">
             <img class="image" src="../images/home/algo.jpg" alt="" />
           </a>
@@ -45,7 +45,7 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card mb-4 shadow-sm">
+        <div class="card mb-5 shadow-sm">
           <a href="physique/">
             <img class="image" src="../images/home/phy.jpg" alt="" />
           </a>
@@ -87,7 +87,7 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card mb-4 shadow-s">
+        <div class="card mb-5 shadow-s">
           <a href="mathematique/">
             <img class="image" src="../images/home/math.jpg" alt="" />
           </a>
