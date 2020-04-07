@@ -1,5 +1,5 @@
 {
-  "name": "miniprojet",
+  "name": "npm",
   "version": "1.0.0",
   "description": "MiniProjet pour s'exercer . il se constitue de deux partie , partie du client et partie du serveur",
   "main": "app.js",
@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
     "nodemon": "^2.0.2"
   }
 }

@@ -123,7 +123,7 @@
                   <div class="btn-group">
                     <button
                       type="button"
-                      class="btn btn-primary my-2"
+                      class="btn btn-dark my-2"
                       id="bu_algo"
                     >
                       Voir le Cours
@@ -169,7 +169,7 @@
                   <div class="btn-group">
                     <button
                       type="submit"
-                      class="btn btn-primary my-2"
+                      class="btn btn-dark my-2"
                       id="bu_phy"
                     >
                       Voir le Cours
@@ -215,7 +215,7 @@
                   <div class="btn-group">
                     <button
                       type="submit"
-                      class="btn btn-primary my-2"
+                      class="btn btn-dark my-2"
                       id="bu_math"
                     >
                       Voir le Cours
@@ -248,18 +248,34 @@
       </div>
     </div>
 
-    <form>
+    <!-- <div class="NewsContainer">
+
+      <div class="card" style="">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         
+        </div>
+      </div>
+
+    </div> -->
+
+    <form action="feed.php" method="POST">
       <div class="row" id="FeedbackAr">
+
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="feedEmail">
           <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre e-mail avec quelqu'un d'autre.</small>
         </div>
+
         <div class="col" style="margin-left: -15px;">
           <label for="comment">commenter: </label>
-          <textarea id="comment" cols="30" rows="5" class="form-control"></textarea>
-
+          <textarea id="comment" cols="30" rows="5" class="form-control" name="feedText"></textarea>
         </div>
+
+        <button type="submit" class="btn btn-dark" id="SendFeed">commenter</button>
       </div>
     </form>
 

@@ -68,6 +68,13 @@ footer > h1 {
   margin: auto;
 }
 
+#SendFeed{
+  height: 33px;
+  font-size: 12px;
+  font-family: arial;
+  margin: auto;
+}
+
 /*footer*/
 
 footer {
