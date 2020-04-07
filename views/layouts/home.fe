@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{>header}}
+    <title>{{ title }}</title>
+    <link rel="stylesheet" type="text/css" href="css/{{ style }}" />
+  </head>
+
+  <body>
+    {{{body}}}
+  </body>
+  <script src="js/{{ script }}"></script>
+</html>

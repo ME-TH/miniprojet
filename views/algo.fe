@@ -1,0 +1,3 @@
+{{> navbar2}}
+<h1>Algo</h1>
+{{> footer}}
