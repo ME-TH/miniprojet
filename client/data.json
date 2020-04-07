@@ -1,8 +1,44 @@
 {
-  "base": { "name": "Base De Données", "description": "merise" },
-  "structure": { "name": "Structure De Données", "description": "chaine" },
-  "anal4": { "name": "Analyse 4", "description": "serie" },
-  "num": { "name": "Analyse Numérique", "description": "lagrange" },
-  "electro": { "name": "Electromagnétisme", "description": "flux" },
-  "quant": { "name": "Mécanique Quantique", "description": "dirac" }
+  "base": {
+    "name": "Base De Données",
+    "url": "base_de_donnees/",
+    "description": "Une base de données, permet de stocker et de retrouver l'intégralité de données brutes ou d'informations en rapport avec un thème ou une activité",
+    "photos": "base",
+    "id": "bu_base"
+  },
+  "struct": {
+    "name": "Structure De Données",
+    "url": "structure_de_donnees/",
+    "description": "En informatique, une structure de données est une manière d'organiser les données pour les traiter plus facilement. Une structure de données est une mise en œuvre concrète d'un type abstrait. ",
+    "photos": "strct",
+    "id": "bu_struct"
+  },
+  "anal4": {
+    "name": "Analyse 4",
+    "url": "analyse_4/",
+    "description": "L'analyse a pour point de départ la formulation rigoureuse du calcul infinitésimal. C'est la branche des mathématiques qui traite explicitement de la notion de limite, que ce soit la limite d'une suite ou la limite d'une fonction.",
+    "photos": "base",
+    "id": "bu_anal4"
+  },
+  "num": {
+    "name": "Analyse Numérique",
+    "url": "analyse_numerique/",
+    "description": "L’analyse numérique est une discipline à l'interface des mathématiques et de l'informatique. Elle s’intéresse tant aux fondements qu’à la mise en pratique des méthodes permettant de résoudre, par des calculs purement numériques, des problèmes d’analyse mathématique. ",
+    "photos": "anal4",
+    "id": "bu_num"
+  },
+  "electro": {
+    "name": "Electromagnétisme",
+    "url": "electromagnetisme/",
+    "description": "L'électromagnétisme est la branche de la physique qui étudie les interactions entre particules chargées électriquement, qu'elles soient au repos ou en mouvement, et plus généralement les effets de l'électricité",
+    "photos": "electro",
+    "id": "bu_electro"
+  },
+  "quant": {
+    "name": "Mécanique Quantique",
+    "url": "mecanique_quantique/",
+    "description": "La mécanique quantique est la branche de la physique théorique qui étudie et décrit les phénomènes fondamentaux à l'œuvre dans les systèmes physiques, plus particulièrement à l'échelle atomique et subatomique. ",
+    "photos": "quant",
+    "id": "bu_quant"
+  }
 }

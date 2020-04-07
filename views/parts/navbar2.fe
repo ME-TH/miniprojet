@@ -24,6 +24,11 @@
           />
         </svg>
       </a>
+      <a
+        class="navbar-brand d-flex align-items-center"
+        href="http://localhost:3000"
+        ><strong>Home Page</strong></a
+      >
       <button
         class="navbar-toggler"
         type="button"

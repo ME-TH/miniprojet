@@ -4,8 +4,8 @@
     <div class="row">
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
-          <a href="algo/">
-            <img class="image" src="../images/v1/algo.jpg" alt="" />
+          <a href="algorithmique/">
+            <img class="image" src="../images/home/algo.jpg" alt="" />
           </a>
           <h4 class="th4">
             Programmation
@@ -46,8 +46,8 @@
       </div>
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
-          <a href="phy/">
-            <img class="image" src="../images/v1/phy.jpg" alt="" />
+          <a href="physique/">
+            <img class="image" src="../images/home/phy.jpg" alt="" />
           </a>
           <h4 class="th4">
             Physique
@@ -88,8 +88,8 @@
       </div>
       <div class="col-md-4">
         <div class="card mb-4 shadow-s">
-          <a href="math/">
-            <img class="image" src="../images/v1/math.jpg" alt="" />
+          <a href="mathematique/">
+            <img class="image" src="../images/home/math.jpg" alt="" />
           </a>
           <h4 class="th4">
             Mathematique

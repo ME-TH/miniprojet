@@ -32,9 +32,9 @@ app.set("views", __dirname + "/views");
 app.use(express.static("client"));
 
 app.use("/", home.route);
-app.use("/math", math.route);
-app.use("/algo", algo.route);
-app.use("/phy", phy.route);
+app.use("/algorithmique", algo.route);
+app.use("/physique", phy.route);
+app.use("/mathematique", math.route);
 
 //listening in the port
 

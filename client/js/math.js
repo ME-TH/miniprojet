@@ -1,15 +1,12 @@
-bu_algo = document.getElementById("bu_algo");
-bu_phy = document.getElementById("bu_phy");
+bu_anal4 = document.getElementById("bu_anal4");
+bu_num = document.getElementById("bu_num");
 
 function main() {
-  bu_algo.addEventListener("click", () => {
-    window.location.href = "algo/";
+  bu_anal4.addEventListener("click", () => {
+    window.location.href = "analyse_4/";
   });
-  bu_phy.addEventListener("click", () => {
-    window.location.href = "phy/";
-  });
-  bu_math.addEventListener("click", () => {
-    window.location.href = "math/";
+  bu_num.addEventListener("click", () => {
+    window.location.href = "analyse_numerique/";
   });
 }
 
