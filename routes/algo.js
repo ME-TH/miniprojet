@@ -8,8 +8,8 @@ algorouter.get("/", (_req, res) => {
   res.render("section", {
     title: "Programming Section",
     section: "section",
-    image1: "base",
-    image2: "struct",
+    image1: data.base.photos,
+    image2: data.struct.photos,
     url1: data.base.url,
     url2: data.struct.url,
     id1: data.base.id,

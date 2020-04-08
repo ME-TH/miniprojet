@@ -8,8 +8,8 @@ mathrouter.get("/", (_req, res) => {
   res.render("section", {
     title: "Math Section",
     section: "section",
-    image1: "anal4",
-    image2: "num",
+    image1: data.anal4.photos,
+    image2: data.num.photos,
     url1: data.anal4.url,
     url2: data.num.url,
     id1: data.anal4.id,
@@ -21,6 +21,9 @@ mathrouter.get("/", (_req, res) => {
     style: "section.css",
     script: "math.js",
   });
+});
+mathrouter.get("/analyse_4", (_req, res) => {
+  res.render("module");
 });
 
 module.exports.route = mathrouter;

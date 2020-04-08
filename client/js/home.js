@@ -4,13 +4,13 @@ bu_math = document.getElementById("bu_math");
 
 function main() {
   bu_algo.addEventListener("click", () => {
-    window.location.href = "algo/";
+    window.location.href = "algorithmique/";
   });
   bu_phy.addEventListener("click", () => {
-    window.location.href = "phy/";
+    window.location.href = "physique/";
   });
   bu_math.addEventListener("click", () => {
-    window.location.href = "math/";
+    window.location.href = "mathematique/";
   });
 }
 

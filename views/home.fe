@@ -5,7 +5,7 @@
       <div class="col-md-4">
         <div class="card mb-5 shadow-sm">
           <a href="algorithmique/">
-            <img class="image" src="../images/home/algo.jpg" alt="" />
+            <img class="image" src="images/home/algo.jpg" alt="" />
           </a>
           <h4 class="th4">
             Programmation
@@ -47,7 +47,7 @@
       <div class="col-md-4">
         <div class="card mb-5 shadow-sm">
           <a href="physique/">
-            <img class="image" src="../images/home/phy.jpg" alt="" />
+            <img class="image" src="images/home/phy.jpg" alt="" />
           </a>
           <h4 class="th4">
             Physique
@@ -89,7 +89,7 @@
       <div class="col-md-4">
         <div class="card mb-5 shadow-s">
           <a href="mathematique/">
-            <img class="image" src="../images/home/math.jpg" alt="" />
+            <img class="image" src="images/home/math.jpg" alt="" />
           </a>
           <h4 class="th4">
             Mathematique

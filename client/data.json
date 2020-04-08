@@ -10,34 +10,34 @@
     "name": "Structure De Données",
     "url": "structure_de_donnees/",
     "description": "En informatique, une structure de données est une manière d'organiser les données pour les traiter plus facilement. Une structure de données est une mise en œuvre concrète d'un type abstrait. ",
-    "photos": "strct",
+    "photos": "struct",
     "id": "bu_struct"
   },
   "anal4": {
     "name": "Analyse 4",
     "url": "analyse_4/",
     "description": "L'analyse a pour point de départ la formulation rigoureuse du calcul infinitésimal. C'est la branche des mathématiques qui traite explicitement de la notion de limite, que ce soit la limite d'une suite ou la limite d'une fonction.",
-    "photos": "base",
+    "photos": "anal4",
     "id": "bu_anal4"
   },
   "num": {
     "name": "Analyse Numérique",
     "url": "analyse_numerique/",
     "description": "L’analyse numérique est une discipline à l'interface des mathématiques et de l'informatique. Elle s’intéresse tant aux fondements qu’à la mise en pratique des méthodes permettant de résoudre, par des calculs purement numériques, des problèmes d’analyse mathématique. ",
-    "photos": "anal4",
+    "photos": "num",
     "id": "bu_num"
   },
   "electro": {
     "name": "Electromagnétisme",
     "url": "electromagnetisme/",
-    "description": "L'électromagnétisme est la branche de la physique qui étudie les interactions entre particules chargées électriquement, qu'elles soient au repos ou en mouvement, et plus généralement les effets de l'électricité",
+    "description": "L'électromagnétisme est la branche de la physique qui étudie les interactions entre particules chargées électriquement, qu'elles soient au repos ou en mouvement, et plus généralement les effets de l'électricité, en utilisant la notion de champ électromagnétique. Il est d'ailleurs possible de définir l'électromagnétisme comme l'étude du champ électromagnétique et de son interaction avec les particules chargées.",
     "photos": "electro",
     "id": "bu_electro"
   },
   "quant": {
     "name": "Mécanique Quantique",
     "url": "mecanique_quantique/",
-    "description": "La mécanique quantique est la branche de la physique théorique qui étudie et décrit les phénomènes fondamentaux à l'œuvre dans les systèmes physiques, plus particulièrement à l'échelle atomique et subatomique. ",
+    "description": "La mécanique quantique est la théorie mathématique et physique décrivant la structure et l'évolution dans le temps et l'espace des phénomènes physiques à l'échelle de l'atome et en dessous. Elle a été découverte lorsque les physiciens ont voulu décrire le comportement des atomes et les échanges d'énergie entre la lumière et la matière à cette échelle et dans tous les détails.",
     "photos": "quant",
     "id": "bu_quant"
   }
