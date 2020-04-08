@@ -29,7 +29,10 @@ app.engine(".fe", fe.engine);
 app.set("view engine", ".fe");
 app.set("views", __dirname + "/views");
 
-app.use(express.static("client"));
+app.use("/css", express.static(__dirname + "/css"));
+app.use("/images", express.static(__dirname + "/Images"));
+app.use("/js", express.static(__dirname + "/js"));
+app.use("/pdf", express.static(__dirname + "/pdf"));
 
 app.use("/", home.route);
 app.use("/algorithmique", algo.route);
@@ -43,7 +46,6 @@ app.listen(PORT, (err) => {
     console.log(err);
     return;
   }
-  console.log(`Server Running on PORT : ${PORT}`);
   if (PORT == 3000) {
     console.log(`Your Site is Hosted On URL = http://localhost:${PORT}/`);
   }
