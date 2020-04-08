@@ -13,5 +13,3 @@ MiniProjet pour s'exercer . il se constitue de deux partie , partie du client et
 # Features
 
 - No-SQL Database
-
-please check "https://docs.djangoproject.com/en/3.0/ref/settings/#std:setting-DATABASES"
