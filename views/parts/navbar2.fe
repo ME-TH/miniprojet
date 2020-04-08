@@ -26,7 +26,7 @@
       </a>
       <a
         class="navbar-brand d-flex align-items-center"
-        href="http://localhost:3000"
+        href="https://qrayti.herokuapp.com/"
         ><strong>Home Page</strong></a
       >
       <button
