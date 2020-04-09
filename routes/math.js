@@ -28,4 +28,4 @@ mathrouter.get("/analyse_4", (_req, res) => {
   });
 });
 
-module.exports.route = mathrouter;
+module.exports = mathrouter;

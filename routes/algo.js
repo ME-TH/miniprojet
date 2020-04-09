@@ -21,4 +21,4 @@ algorouter.get("/", (_req, res) => {
   });
 });
 
-module.exports.route = algorouter;
+module.exports = algorouter;

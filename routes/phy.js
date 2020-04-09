@@ -21,4 +21,4 @@ phyrouter.get("/", (_req, res) => {
   });
 });
 
-module.exports.route = phyrouter;
+module.exports = phyrouter;

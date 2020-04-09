@@ -9,4 +9,4 @@ homerouter.get("/", (_req, res) => {
   });
 });
 
-module.exports.route = homerouter;
+module.exports = homerouter;

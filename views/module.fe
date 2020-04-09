@@ -1,14 +1,25 @@
 {{> navbar2 }}
 
-<form>
-  <div class="form-row">
-    <div class="col-7">
-      <input type="text" class="form-control" placeholder="City" />
+<form action="" method="POST" class="form-inline">
+  <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+    <input type="text" placeholder="Name" required="required" name="userName" />
+    <input
+      type="email"
+      placeholder="Enter email"
+      required="required"
+      name="email"
+    />
+  </div>
+  <div class="form-inline">
+    <div class="col-md-2">
+      <textarea
+        placeholder="Your Message"
+        type="text"
+        name="message"
+        required="required"
+        class="form-control"
+      ></textarea>
+      <input type="submit" value="SEND" class="submit btn btn-primary mb-2" />
     </div>
-    <div class="col">
-      <input type="text" class="form-control" placeholder="State" />
-    </div>
-    <div class="col"></div>
-    <button type="submit" class="btn btn-primary">Submit</button>
   </div>
 </form>

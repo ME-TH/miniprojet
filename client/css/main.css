@@ -39,7 +39,16 @@ footer > h1 {
   -ms-user-select: none;
   user-select: none;
 }
-
+input {
+  background-color: #343a40;
+  color: white;
+  border: none;
+}
+textarea {
+  background-color: #343a40;
+  color: white;
+  border: none;
+}
 .jumbotron {
   padding-top: 3rem;
   padding-bottom: 3rem;
