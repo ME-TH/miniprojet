@@ -6,10 +6,18 @@ MiniProjet pour s'exercer . il se constitue de deux partie , partie du client et
 
 - HTML
 - CSS
-- Javascript
+- Javascript and Jquery
 - Node.js and express framework for server-side
 - Bootstrap
+- Mongodb using mongoose
 
 # Features
 
-- No-SQL Database
+- Authentification
+- Upload Files To The Databse
+
+# Host
+
+- Heroku
+- Add-ons :
+  -mLab MongoDB
