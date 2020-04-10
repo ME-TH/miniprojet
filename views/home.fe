@@ -17,7 +17,7 @@
             </p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                <button type="button" class="btn btn-primary my-2" id="bu_algo">
+                <button type="button" class="btn btn-dark my-2" id="bu_algo">
                   Voir le Cours
                   <svg
                     class="bi bi-eye"
@@ -59,7 +59,7 @@
             </p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                <button type="submit" class="btn btn-primary my-2" id="bu_phy">
+                <button type="submit" class="btn btn-dark my-2" id="bu_phy">
                   Voir le Cours
                   <svg
                     class="bi bi-eye"
@@ -101,7 +101,7 @@
             </p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                <button type="submit" class="btn btn-primary my-2" id="bu_math">
+                <button type="submit" class="btn btn-dark my-2" id="bu_math">
                   Voir le Cours
                   <svg
                     class="bi bi-eye"
@@ -131,3 +131,4 @@
     </div>
   </div>
 </div>
+{{> feedback}}

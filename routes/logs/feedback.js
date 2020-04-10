@@ -1,10 +1,9 @@
 const express = require("express");
 const feedschema = require("../../models/feedschema");
 
-const feedback = express.Router();
-feedback.use(express.json());
+const feedrouter = express.Router();
 
-feedback.get("/", async (_req, res) => {
+feedrouter.get("/", async (_req, res) => {
   try {
     const entries = await feedschema.find();
     res.json(entries);
@@ -12,11 +11,11 @@ feedback.get("/", async (_req, res) => {
     next(error);
   }
 });
-feedback.post("/", async (req, res, next) => {
+
+feedrouter.post("/", async (req, res, next) => {
   try {
-    const Feedschema = new feedschema(req.body);
-    const createdfeed = await Feedschema.save();
-    res.json(createdfeed);
+    const Feedschema = new feedschema(req.body).save();
+    res.status(204).end();
   } catch (error) {
     if (error.name === "ValidationError") {
       res.status(422);
@@ -25,4 +24,4 @@ feedback.post("/", async (req, res, next) => {
   }
 });
 
-module.exports = feedback;
+module.exports = feedrouter;

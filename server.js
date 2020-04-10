@@ -2,7 +2,7 @@
 
 const express = require("express");
 const template = require("express-handlebars");
-/*const morgan = require("morgan");*/
+//const morgan = require("morgan");
 const helmet = require("helmet");
 const cors = require("cors");
 const mongoose = require("mongoose");
@@ -25,6 +25,7 @@ const math = require("./routes/math");
 const phy = require("./routes/phy");
 const error = require("./routes/error");
 const feedback = require("./routes/logs/feedback");
+const bodyparser = require("body-parser");
 
 //creating the app
 
@@ -37,7 +38,7 @@ mongoose.connect(process.env.MONGODB_URI, {
   useUnifiedTopology: true,
 });
 
-/*app.use(morgan("common"));*/
+//app.use(morgan("common"));
 app.use(helmet());
 app.use(
   cors({
@@ -45,10 +46,11 @@ app.use(
   })
 );
 app.use(express.json());
+app.use(bodyparser.urlencoded({ extended: false }));
 
 // setting port
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 //set handlebars engine
 
@@ -80,5 +82,5 @@ app.listen(PORT, (err) => {
     console.log(err);
     return;
   }
-  console.log(`Your Site is Hosted On URL = http://localhost:3000/`);
+  console.log(`Your Site is Hosted On URL = http://localhost:${PORT}/`);
 });

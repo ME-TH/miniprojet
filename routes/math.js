@@ -24,7 +24,6 @@ mathrouter.get("/analyse_4", (_req, res) => {
   res.render("module", {
     layout: "module.fe",
     title: data.anal4.name,
-    style: "section.css",
   });
 });
 
