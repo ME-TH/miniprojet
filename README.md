@@ -22,7 +22,3 @@ MiniProjet pour s'exercer . il se constitue de deux partie , partie du client et
 - Heroku
 - Add-ons :
   -mLab MongoDB
-
-# help
-
-- https://getbootstrap.com/docs/4.0/components/input-group/ : URL to upload File
