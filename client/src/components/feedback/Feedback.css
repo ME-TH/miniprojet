@@ -1,0 +1,9 @@
+form {
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: #f8f9fa;
+}
+.hide {
+  display: none;
+  visibility: hidden;
+}

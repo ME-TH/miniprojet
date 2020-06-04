@@ -1,0 +1,47 @@
+h1 {
+  color: crimson;
+  text-align: center;
+}
+#home {
+  background-image: url(/images/home/home.jpg);
+  background-size: cover;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  position: fixed;
+}
+.xyz {
+  background-size: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.btn-circle.btn-sm {
+  width: 45px;
+  height: 45px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  font-size: 8px;
+  text-align: center;
+}
+.btn-circle.btn-md {
+  width: 50px;
+  height: 50px;
+  padding: 7px 10px;
+  border-radius: 25px;
+  font-size: 10px;
+  text-align: center;
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 12px;
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  #home {
+    right: 50%;
+    margin-right: -50%;
+  }
+}

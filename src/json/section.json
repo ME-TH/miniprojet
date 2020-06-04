@@ -1,0 +1,20 @@
+[
+  {
+    "image": "/images/section/algo.jpg",
+    "name": "Programmation",
+    "desc": "Dans Cette Section Vouz Aurez L'accés A Deux Module Du Programmation , Base De Données et Structure Des Données.",
+    "link": "section/algorithmique/"
+  },
+  {
+    "image": "/images/section/phy.jpg",
+    "name": "Physique",
+    "desc": "Dans Cette Section Vouz Aurez L'accés A Deux Module Du Physique , Mécanique Quantique et Electromagnétisme.",
+    "link": "section/physique/"
+  },
+  {
+    "image": "/images/section/math.jpg",
+    "name": "Mathematique",
+    "desc": "Dans Cette Section Vouz Aurez L'accés A Deux Module D'Analyse ,Analyse 4 et Analyse Numérique.",
+    "link": "section/mathematique/"
+  }
+]

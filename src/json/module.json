@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Base De Données",
+    "link": "base_de_donnees/",
+    "desc": "Une base de données, permet de stocker et de retrouver l'intégralité de données brutes ou d'informations en rapport avec un thème ou une activité",
+    "image": "/images/module/base.jpg",
+    "id": 1
+  },
+  {
+    "name": "Structure De Données",
+    "link": "structure_de_donnees/",
+    "desc": "En informatique, une structure de données est une manière d'organiser les données pour les traiter plus facilement. Une structure de données est une mise en œuvre concrète d'un type abstrait. ",
+    "image": "/images/module/struct.jpg",
+    "id": 1
+  },
+  {
+    "name": "Analyse 4",
+    "link": "analyse_4/",
+    "desc": "L'analyse a pour point de départ la formulation rigoureuse du calcul infinitésimal. C'est la branche des mathématiques qui traite explicitement de la notion de limite, que ce soit la limite d'une suite ou la limite d'une fonction.",
+    "image": "/images/module/anal4.jpg",
+    "id": 2
+  },
+  {
+    "name": "Analyse Numérique",
+    "link": "analyse_numerique/",
+    "desc": "L’analyse numérique est une discipline à l'interface des mathématiques et de l'informatique. Elle s’intéresse tant aux fondements qu’à la mise en pratique des méthodes permettant de résoudre, par des calculs purement numériques, des problèmes d’analyse mathématique. ",
+    "image": "/images/module/num.jpg",
+    "id": 2
+  },
+  {
+    "name": "Electromagnétisme",
+    "link": "electromagnetisme/",
+    "desc": "L'électromagnétisme est la branche de la physique qui étudie les interactions entre particules chargées électriquement, qu'elles soient au repos ou en mouvement, et plus généralement les effets de l'électricité, en utilisant la notion de champ électromagnétique.",
+    "image": "/images/module/electro.jpg",
+    "id": 3
+  },
+  {
+    "name": "Mécanique Quantique",
+    "link": "mecanique_quantique/",
+    "desc": "La mécanique quantique est la théorie mathématique et physique décrivant la structure et l'évolution dans le temps et l'espace des phénomènes physiques à l'échelle de l'atome et en dessous. ",
+    "image": "/images/module/quant.jpg",
+    "id": 3
+  }
+]

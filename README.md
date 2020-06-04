@@ -10,6 +10,7 @@ MiniProjet pour s'exercer . il se constitue de deux partie , partie du client et
 - Node.js and express framework for server-side
 - Bootstrap
 - Mongodb using mongoose
+- React and axiom for Getting response from rest api and sending data also
 
 # Features
 
@@ -21,4 +22,7 @@ MiniProjet pour s'exercer . il se constitue de deux partie , partie du client et
 - Heroku
 - Add-ons :
   -mLab MongoDB
-  https://getbootstrap.com/docs/4.0/components/input-group/ : URL to opload File
+
+# help
+
+- https://getbootstrap.com/docs/4.0/components/input-group/ : URL to upload File

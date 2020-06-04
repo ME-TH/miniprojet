@@ -1,0 +1,18 @@
+footer {
+  margin-top: 2%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: 0.25rem;
+}
+
+footer.container-fluid {
+  background-color: #343a40;
+}
+
+footer > h1 {
+  text-align: center;
+  color: whitesmoke;
+}

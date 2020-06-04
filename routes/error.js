@@ -4,7 +4,7 @@ const notfound = (req, res, next) => {
   next(error);
 };
 
-const errorhandler = (error, req, res, next) => {
+const errorhandler = (error, _req, res, _next) => {
   const statuscode =
     res.statuscode === 200 || res.statuscode === undefined
       ? 404
